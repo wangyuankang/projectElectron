@@ -27,22 +27,25 @@
         <div class="value">{{ platform }}</div>
       </div>
     </div>
+    <el-button>Buttonxxxx</el-button>
+    <span className="icon-caution_filled"></span>
+    大大
   </div>
 </template>
 
 <script>
   export default {
-    data() {
+    data () {
       return {
         electron: process.versions.electron,
         name: this.$route.name,
         node: process.versions.node,
         path: this.$route.path,
         platform: require('os').platform(),
-        vue: require('vue/package.json').version,
-      };
-    },
-  };
+        vue: require('vue/package.json').version
+      }
+    }
+  }
 </script>
 
 <style scoped>
