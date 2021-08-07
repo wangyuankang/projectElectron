@@ -28,8 +28,9 @@
       </div>
     </div>
     <el-button>Buttonxxxx</el-button>
-    <span className="icon-caution_filled"></span>
-    大大
+    图标
+    <span class="icon-view"></span>
+    <span class="icon-user"></span>
   </div>
 </template>
 

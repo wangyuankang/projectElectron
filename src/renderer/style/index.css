@@ -1,3 +1,7 @@
 /* @charset "UTF-8";
-@import"../icomoon/style.css";
+@import"@/icomoon/style.css";
 @import"element-ui/lib/theme-chalk/index.css"; */
+*{
+    margin: 0;
+    padding: 0;
+}

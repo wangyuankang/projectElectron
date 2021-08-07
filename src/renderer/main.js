@@ -7,9 +7,10 @@ import store from './store'
 
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-Vue.use(ElementUI)
+import '@/icomoon/style.css'
+import '@/style/index.css'
 
-// import"./icomoon/style.css"
+Vue.use(ElementUI)
 
 if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
 Vue.http = Vue.prototype.$http = axios
