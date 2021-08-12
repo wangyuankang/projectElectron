@@ -7,7 +7,7 @@ import store from './store'
 
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-import '@/icomoon/style.css'
+// import '@/icomoon/style.css'
 import '@/style/index.css'
 
 Vue.use(ElementUI)
